@@ -2,8 +2,9 @@
 MYSQL Password provider for matrix-synapse
 
 
-### Usage:
+### homeserver.yml:
 
+```
 password_providers:
   - module: "mysql_auth_provider.MysqlAuthProvider"
     config:
@@ -13,3 +14,4 @@ password_providers:
       password: "ChangeMe"
       database: "mysqlserver"
 
+```
