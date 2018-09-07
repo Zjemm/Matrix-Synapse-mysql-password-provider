@@ -2,6 +2,8 @@
 MYSQL Password provider for matrix-synapse
 
 
+place in: /usr/lib/python2.7/dist-packages/
+
 ### homeserver.yml:
 
 ```
